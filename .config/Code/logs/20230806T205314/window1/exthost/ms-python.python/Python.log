@@ -1,0 +1,39 @@
+2023-08-06 20:53:16.519 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-06 20:53:16.519 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-06 20:53:16.519 [info] Experiment 'pythonSurveyNotification' is active
+2023-08-06 20:53:16.519 [info] Experiment 'pythonTestAdaptercf' is active
+2023-08-06 20:53:16.519 [info] Test server listening.
+2023-08-06 20:53:16.519 [info] Python interpreter path: /bin/python
+2023-08-06 20:53:17.948 [info] Starting Jedi language server for qtile.
+2023-08-06 21:06:21.077 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:07:27.408 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:07:40.976 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:10:19.892 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:10:28.593 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:13:05.461 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:13:21.335 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:13:31.335 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:13:45.044 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:13:56.071 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:14:56.279 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:15:05.503 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:15:22.951 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:15:29.078 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:16:11.009 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:17:19.485 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:17:24.472 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:17:33.751 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:17:44.738 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:17:59.503 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:28:25.593 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:28:59.645 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:33:04.582 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:33:44.249 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:34:25.139 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:35:01.694 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:35:15.774 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:37:46.629 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:38:24.442 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:38:43.283 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:39:28.220 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 21:39:42.485 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py

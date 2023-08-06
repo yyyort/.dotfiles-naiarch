@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.customUIColors": {
+        /* "all": {
+            "breadcrumb.background": "overlay0",
+            "breadcrumb.foreground": "text",
+        },
+        // but for mocha, use "crust" on your currently selected accent.
+        "mocha": {
+            // "accent" selects your current accent color.
+            "breadcrumb.background": "accent",
+            "breadcrumb.foreground": "crust",
+            // you can use opacity, by specifing it after a space
+            // "rosewater 0.5" would mean 50% opacity, here it's 20%
+            "minimap.background": "rosewater 0.2"
+        } */
+        
+    },
+
+    "catppuccin.colorOverrides": {
+        // make text red red all flavours
+        "all": {
+            "text": "#ffffff"
+        },
+        // make Mocha "OLEDppuccin" - use black editor background
+        "mocha": {
+            "base": "#000000",
+            "mantle": "#010101",
+            "crust": "#020202",
+        }
+    }
+}

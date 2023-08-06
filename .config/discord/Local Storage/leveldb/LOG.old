@@ -1,0 +1,6 @@
+2023/08/06-19:20:53.213 f78f Reusing MANIFEST /home/nai/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/06-19:20:53.214 f78f Recovering log #4
+2023/08/06-19:20:53.216 f78f Reusing old log /home/nai/.config/discord/Local Storage/leveldb/000004.log 
+2023/08/06-19:23:11.628 10288 Level-0 table #8: started
+2023/08/06-19:23:11.649 10288 Level-0 table #8: 1807384 bytes OK
+2023/08/06-19:23:11.651 10288 Delete type=0 #4

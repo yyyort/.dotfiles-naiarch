@@ -1,0 +1,10 @@
+2023-08-06 22:17:13.407 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-06 22:17:13.407 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-06 22:17:13.407 [info] Experiment 'pythonSurveyNotification' is active
+2023-08-06 22:17:13.407 [info] Experiment 'pythonTestAdaptercf' is active
+2023-08-06 22:17:13.423 [info] Test server listening.
+2023-08-06 22:17:13.458 [info] Python interpreter path: /bin/python
+2023-08-06 22:17:14.971 [info] Starting Jedi language server for qtile.
+2023-08-06 22:19:00.643 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 22:26:58.379 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py
+2023-08-06 22:34:02.715 [info] Discover tests for workspace name: qtile - uri: /home/nai/.config/qtile/config.py

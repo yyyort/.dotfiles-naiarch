@@ -1,0 +1,4 @@
+ERR 2023-08-06T19:05:27.131 ?.42935    terminfo_start:346: uv_tty_init failed: invalid argument
+ERR 2023-08-06T19:05:27.131 ?.42935    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-06T19:05:27.131 ?.42935    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-06T19:05:27.131 ?.42935    tui_terminal_stop:434: TUI already stopped (race?)

@@ -1,0 +1,18 @@
+2023/08/06-22:15:26.253 1c807 Reusing MANIFEST /home/nai/.config/figma-linux/Local Storage/leveldb/MANIFEST-000001
+2023/08/06-22:15:26.253 1c807 Recovering log #14
+2023/08/06-22:15:26.253 1c807 Reusing old log /home/nai/.config/figma-linux/Local Storage/leveldb/000014.log 
+2023/08/06-22:15:34.657 1c807 Level-0 table #18: started
+2023/08/06-22:15:34.662 1c807 Level-0 table #18: 25853 bytes OK
+2023/08/06-22:15:34.663 1c807 Delete type=0 #14
+2023/08/06-22:15:34.663 1c807 Compacting 4@0 + 1@1 files
+2023/08/06-22:15:34.667 1c807 Generated table #19@0: 18 keys, 26931 bytes
+2023/08/06-22:15:34.667 1c807 Compacted 4@0 + 1@1 files => 26931 bytes
+2023/08/06-22:15:34.669 1c807 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/06-22:15:34.669 1c807 Delete type=2 #13
+2023/08/06-22:15:34.669 1c807 Delete type=2 #18
+2023/08/06-22:15:34.669 1c807 Delete type=2 #8
+2023/08/06-22:15:34.669 1c807 Delete type=2 #11
+2023/08/06-22:15:34.669 1c807 Delete type=2 #15
+2023/08/06-22:16:29.640 1c807 Level-0 table #21: started
+2023/08/06-22:16:29.644 1c807 Level-0 table #21: 32501 bytes OK
+2023/08/06-22:16:29.646 1c807 Delete type=0 #17

@@ -1,0 +1,128 @@
+2023-08-06 18:26:01.564 [info] Extension host with pid 5018 started
+2023-08-06 18:26:01.565 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:26:01.636 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-08-06 18:26:01.659 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:26:01.692 [info] Eager extensions activated
+2023-08-06 18:26:01.700 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:26:01.707 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:26:01.981 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:26:02.062 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:26:05.852 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-08-06 18:26:08.025 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:26:36.188 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: '*'
+2023-08-06 18:26:39.492 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:26:39.524 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:30:05.351 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:30:05.403 [info] Extension host with pid 5018 exiting with code 0
+2023-08-06 18:30:06.737 [info] Extension host with pid 9904 started
+2023-08-06 18:30:06.737 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:30:06.873 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:30:06.889 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:30:06.930 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:30:07.343 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:30:07.345 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:30:07.357 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:30:07.381 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:30:07.454 [info] Eager extensions activated
+2023-08-06 18:30:07.644 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:30:07.646 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:30:07.667 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:30:07.820 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:32:08.685 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:32:08.720 [info] Extension host with pid 9904 exiting with code 0
+2023-08-06 18:32:10.097 [info] Extension host with pid 12334 started
+2023-08-06 18:32:10.098 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:32:10.244 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:32:10.253 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:32:10.286 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:32:10.804 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:32:10.806 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:32:10.933 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:32:10.971 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:32:11.087 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:32:11.207 [info] Eager extensions activated
+2023-08-06 18:32:11.284 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:32:11.291 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:32:11.380 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:32:32.714 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:32:32.755 [info] Extension host with pid 12334 exiting with code 0
+2023-08-06 18:32:33.907 [info] Extension host with pid 12837 started
+2023-08-06 18:32:33.907 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:32:34.036 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:32:34.047 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:32:34.106 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:32:34.582 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:32:34.585 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:32:34.589 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:32:34.617 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:32:34.650 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:32:34.880 [info] Eager extensions activated
+2023-08-06 18:32:35.003 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:32:35.005 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:32:35.063 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:34:09.479 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:34:09.518 [info] Extension host with pid 12837 exiting with code 0
+2023-08-06 18:34:10.817 [info] Extension host with pid 14817 started
+2023-08-06 18:34:10.817 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:34:10.984 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:34:10.995 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:34:11.034 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:34:11.431 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:34:11.435 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:34:11.484 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:34:11.510 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:34:11.692 [info] Eager extensions activated
+2023-08-06 18:34:11.803 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:34:11.805 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:34:12.259 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:34:12.505 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:34:40.448 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:34:40.470 [info] Extension host with pid 14817 exiting with code 0
+2023-08-06 18:34:41.695 [info] Extension host with pid 15459 started
+2023-08-06 18:34:41.695 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:34:41.868 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:34:41.878 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:34:41.924 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:34:42.359 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:34:42.364 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:34:42.418 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:34:42.445 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:34:42.512 [info] Eager extensions activated
+2023-08-06 18:34:42.561 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:34:42.564 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:34:43.089 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:34:43.403 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:35:27.191 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:35:27.227 [info] Extension host with pid 15459 exiting with code 0
+2023-08-06 18:35:28.497 [info] Extension host with pid 16398 started
+2023-08-06 18:35:28.497 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:35:28.754 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:35:28.783 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:35:28.832 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:35:29.365 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:35:29.368 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:35:29.380 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:35:29.399 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:35:29.470 [info] Eager extensions activated
+2023-08-06 18:35:29.601 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:35:29.606 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:35:30.088 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:35:30.415 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:36:19.651 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:36:19.686 [info] Extension host with pid 16398 exiting with code 0
+2023-08-06 18:36:20.947 [info] Extension host with pid 17494 started
+2023-08-06 18:36:20.948 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/cdd1c0b841bb3b8f73aa4ab40fd82ac5.
+2023-08-06 18:36:21.131 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 18:36:21.141 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:36:21.171 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-06 18:36:21.568 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 18:36:21.572 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 18:36:21.585 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 18:36:21.608 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 18:36:21.815 [info] Eager extensions activated
+2023-08-06 18:36:21.855 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:36:21.858 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 18:36:22.452 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 18:36:22.712 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 18:39:30.909 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 18:39:30.957 [info] Extension host with pid 17494 exiting with code 0

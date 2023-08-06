@@ -1,0 +1,7 @@
+[Default Applications]
+application/zip=userapp-unzip-CPD581.desktop
+x-scheme-handler/figma=figma-linux.desktop
+x-scheme-handler/notion=notion-app.desktop
+
+[Added Associations]
+application/zip=userapp-unzip-CPD581.desktop;

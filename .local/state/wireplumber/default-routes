@@ -1,0 +1,11 @@
+[default-routes]
+alsa_card.pci-0000_07_00.6.3:output:analog-output-headphones:channelMap=FL;FR;
+alsa_card.pci-0000_07_00.6.3:output:analog-output-headphones:channelVolumes=0.37315499782562;0.37315499782562;
+alsa_card.pci-0000_07_00.6.3:output:analog-output-headphones:latencyOffsetNsec=0
+alsa_card.pci-0000_07_00.6.3:profile:input:analog-stereo=analog-output-headphones;
+alsa_card.pci-0000_07_00.6.3:profile:output:analog-stereo+input:analog-stereo=analog-output-headphones;
+alsa_card.pci-0000_07_00.6:output:analog-output-headphones:channelMap=FL;FR;
+alsa_card.pci-0000_07_00.6:output:analog-output-headphones:channelVolumes=0.55135202407837;0.55135202407837;
+alsa_card.pci-0000_07_00.6:output:analog-output-headphones:latencyOffsetNsec=0
+alsa_card.pci-0000_07_00.6:profile:input:analog-stereo=analog-output-headphones;
+alsa_card.pci-0000_07_00.6:profile:output:analog-stereo+input:analog-stereo=analog-output-headphones;

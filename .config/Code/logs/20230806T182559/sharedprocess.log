@@ -1,0 +1,7 @@
+2023-08-06 18:26:34.759 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-08-06 18:26:34.773 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-08-06 18:26:35.902 [warning] Extension signature verification failed with error 'UnknownError': catppuccin.catppuccin-vsc
+2023-08-06 18:26:35.938 [info] Extracted extension to file:///home/nai/.vscode/extensions/catppuccin.catppuccin-vsc-2.7.0: catppuccin.catppuccin-vsc
+2023-08-06 18:26:35.945 [info] Renamed to /home/nai/.vscode/extensions/catppuccin.catppuccin-vsc-2.7.0
+2023-08-06 18:26:35.946 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-08-06 18:26:35.960 [info] Extension installed successfully: catppuccin.catppuccin-vsc

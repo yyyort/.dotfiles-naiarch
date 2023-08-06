@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.customUIColors": {
+        
+        
+    },
+
+    "catppuccin.colorOverrides": {
+        // make text red red all flavours
+        "all": {
+            "text": "#ff0000"
+        },
+        // make Mocha "OLEDppuccin" - use black editor background
+        "mocha": {
+            "base": "#000000",
+            "mantle": "#010101",
+            "crust": "#020202",
+        }
+    }
+}

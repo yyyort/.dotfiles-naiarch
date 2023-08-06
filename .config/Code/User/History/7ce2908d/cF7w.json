@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.customUIColors": {
+        // make text red red all flavours
+        "all": {
+            "text": "#ff0000"
+        },
+    }
+}

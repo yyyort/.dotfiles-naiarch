@@ -1,0 +1,7 @@
+2023/08/06-22:34:42.329 240fc Reusing MANIFEST /home/nai/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2023/08/06-22:34:42.332 240fc Recovering log #9
+2023/08/06-22:34:42.334 240fc Level-0 table #12: started
+2023/08/06-22:34:42.339 240fc Level-0 table #12: 11426 bytes OK
+2023/08/06-22:34:42.339 240fc Recovering log #11
+2023/08/06-22:34:42.339 240fc Reusing old log /home/nai/.config/notion-app/Partitions/notion/Local Storage/leveldb/000011.log 
+2023/08/06-22:34:42.343 240fc Delete type=0 #9

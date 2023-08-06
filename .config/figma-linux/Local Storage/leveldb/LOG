@@ -1,0 +1,9 @@
+2023/08/06-22:27:14.510 203bf Reusing MANIFEST /home/nai/.config/figma-linux/Local Storage/leveldb/MANIFEST-000001
+2023/08/06-22:27:14.511 203bf Recovering log #20
+2023/08/06-22:27:14.511 203bf Reusing old log /home/nai/.config/figma-linux/Local Storage/leveldb/000020.log 
+2023/08/06-22:27:23.196 203bf Level-0 table #24: started
+2023/08/06-22:27:23.201 203bf Level-0 table #24: 26020 bytes OK
+2023/08/06-22:27:23.203 203bf Delete type=0 #20
+2023/08/06-22:33:16.625 203bf Level-0 table #26: started
+2023/08/06-22:33:16.629 203bf Level-0 table #26: 32381 bytes OK
+2023/08/06-22:33:16.632 203bf Delete type=0 #23

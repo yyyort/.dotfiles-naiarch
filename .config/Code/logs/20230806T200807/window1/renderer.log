@@ -1,0 +1,25 @@
+2023-08-06 20:08:11.579 [info] [perf] Render performance baseline is 83ms
+2023-08-06 20:08:42.063 [error] AssertionError: Cannot infer the keyword <Keyword: from>: Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:43.286 [error] AssertionError: Cannot infer the keyword <Keyword: from>: Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:47.921 [error] AssertionError: Cannot infer the keyword <Keyword: from>: Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:52.945 [error] AssertionError: Cannot infer the keyword <Keyword: from>: Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)

@@ -1,0 +1,604 @@
+2023-08-05T07:00:22.546Z [Modules] Modules initializing
+2023-08-05T07:00:22.547Z [Modules] Distribution: remote
+2023-08-05T07:00:22.547Z [Modules] Host updates: enabled
+2023-08-05T07:00:22.547Z [Modules] Module updates: enabled
+2023-08-05T07:00:22.548Z [Modules] Module install path: /home/nai/.config/discord/0.0.28/modules
+2023-08-05T07:00:22.548Z [Modules] Module installed file path: /home/nai/.config/discord/0.0.28/modules/installed.json
+2023-08-05T07:00:22.548Z [Modules] Module download path: /home/nai/.config/discord/0.0.28/modules/pending
+2023-08-05T07:00:22.741Z [Modules] Bootstrapping...
+2023-08-05T07:00:22.743Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-08-05T07:00:22.745Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-08-05T07:00:22.746Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-08-05T07:00:22.749Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-08-05T07:00:22.750Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-08-05T07:00:22.752Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-08-05T07:00:22.753Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-08-05T07:00:22.753Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-08-05T07:00:22.754Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-08-05T07:00:22.757Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-08-05T07:00:22.758Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-08-05T07:00:22.758Z [Modules] Checking for host updates.
+2023-08-05T07:00:23.192Z [Modules] Host is up to date.
+2023-08-05T07:00:23.192Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-05T07:00:23.303Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-08-05T07:00:23.303Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-08-05T07:00:23.303Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-08-05T07:00:23.303Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-08-05T07:00:23.303Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-08-05T07:00:23.303Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-08-05T07:00:23.304Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip
+2023-08-05T07:00:24.432Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 1%
+2023-08-05T07:00:24.537Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 2%
+2023-08-05T07:00:24.666Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 3%
+2023-08-05T07:00:24.748Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 4%
+2023-08-05T07:00:24.810Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 5%
+2023-08-05T07:00:24.848Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 6%
+2023-08-05T07:00:24.895Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 7%
+2023-08-05T07:00:24.929Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 8%
+2023-08-05T07:00:24.966Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 9%
+2023-08-05T07:00:24.996Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 10%
+2023-08-05T07:00:25.037Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 11%
+2023-08-05T07:00:25.055Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 12%
+2023-08-05T07:00:25.069Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 13%
+2023-08-05T07:00:25.100Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 14%
+2023-08-05T07:00:25.114Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 15%
+2023-08-05T07:00:25.127Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 16%
+2023-08-05T07:00:25.140Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 17%
+2023-08-05T07:00:25.164Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 18%
+2023-08-05T07:00:25.174Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 19%
+2023-08-05T07:00:25.185Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 20%
+2023-08-05T07:00:25.206Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 21%
+2023-08-05T07:00:25.216Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 22%
+2023-08-05T07:00:25.226Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 23%
+2023-08-05T07:00:25.235Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 24%
+2023-08-05T07:00:25.252Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 25%
+2023-08-05T07:00:25.260Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 26%
+2023-08-05T07:00:25.269Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 27%
+2023-08-05T07:00:25.285Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 28%
+2023-08-05T07:00:25.292Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 29%
+2023-08-05T07:00:25.300Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 30%
+2023-08-05T07:00:25.306Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 31%
+2023-08-05T07:00:25.320Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 32%
+2023-08-05T07:00:25.326Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 33%
+2023-08-05T07:00:25.333Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 34%
+2023-08-05T07:00:25.345Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 35%
+2023-08-05T07:00:25.353Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 36%
+2023-08-05T07:00:25.357Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 37%
+2023-08-05T07:00:25.363Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 38%
+2023-08-05T07:00:25.375Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 39%
+2023-08-05T07:00:25.380Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 40%
+2023-08-05T07:00:25.386Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 41%
+2023-08-05T07:00:25.394Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 42%
+2023-08-05T07:00:25.399Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 43%
+2023-08-05T07:00:25.404Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 44%
+2023-08-05T07:00:25.409Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 45%
+2023-08-05T07:00:25.418Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 46%
+2023-08-05T07:00:25.423Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 47%
+2023-08-05T07:00:25.427Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 48%
+2023-08-05T07:00:25.435Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 49%
+2023-08-05T07:00:25.439Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 50%
+2023-08-05T07:00:25.444Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 51%
+2023-08-05T07:00:25.448Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 52%
+2023-08-05T07:00:25.456Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 53%
+2023-08-05T07:00:25.460Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 54%
+2023-08-05T07:00:25.463Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 55%
+2023-08-05T07:00:25.472Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 56%
+2023-08-05T07:00:25.475Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 57%
+2023-08-05T07:00:25.478Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 58%
+2023-08-05T07:00:25.482Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 59%
+2023-08-05T07:00:25.490Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 60%
+2023-08-05T07:00:25.493Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 61%
+2023-08-05T07:00:25.497Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 62%
+2023-08-05T07:00:25.504Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 63%
+2023-08-05T07:00:25.509Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 64%
+2023-08-05T07:00:25.511Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 65%
+2023-08-05T07:00:25.515Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 66%
+2023-08-05T07:00:25.521Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 67%
+2023-08-05T07:00:25.524Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 68%
+2023-08-05T07:00:25.528Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 69%
+2023-08-05T07:00:25.534Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 70%
+2023-08-05T07:00:25.538Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 71%
+2023-08-05T07:00:25.540Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 72%
+2023-08-05T07:00:25.543Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 73%
+2023-08-05T07:00:25.549Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 74%
+2023-08-05T07:00:25.553Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 75%
+2023-08-05T07:00:25.555Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 76%
+2023-08-05T07:00:25.563Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 78%
+2023-08-05T07:00:25.565Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 79%
+2023-08-05T07:00:25.568Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 80%
+2023-08-05T07:00:25.573Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 81%
+2023-08-05T07:00:25.575Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 82%
+2023-08-05T07:00:25.579Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 83%
+2023-08-05T07:00:25.584Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 84%
+2023-08-05T07:00:25.587Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 85%
+2023-08-05T07:00:25.589Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 86%
+2023-08-05T07:00:25.592Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 87%
+2023-08-05T07:00:25.596Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 88%
+2023-08-05T07:00:25.599Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 89%
+2023-08-05T07:00:25.601Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 90%
+2023-08-05T07:00:25.605Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 91%
+2023-08-05T07:00:25.608Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 92%
+2023-08-05T07:00:25.610Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 93%
+2023-08-05T07:00:25.612Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 94%
+2023-08-05T07:00:25.617Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 95%
+2023-08-05T07:00:25.624Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 98%
+2023-08-05T07:00:25.627Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 99%
+2023-08-05T07:00:25.628Z [Modules] Streaming discord_desktop_core@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip: 100%
+2023-08-05T07:00:25.629Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-08-05T07:00:25.629Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip
+2023-08-05T07:00:26.139Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 3%
+2023-08-05T07:00:26.140Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 5%
+2023-08-05T07:00:26.143Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 9%
+2023-08-05T07:00:26.147Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 11%
+2023-08-05T07:00:26.149Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 15%
+2023-08-05T07:00:26.153Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 19%
+2023-08-05T07:00:26.158Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 23%
+2023-08-05T07:00:26.162Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 27%
+2023-08-05T07:00:26.167Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 31%
+2023-08-05T07:00:26.171Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 35%
+2023-08-05T07:00:26.175Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 39%
+2023-08-05T07:00:26.177Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 40%
+2023-08-05T07:00:26.180Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 44%
+2023-08-05T07:00:26.184Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 47%
+2023-08-05T07:00:26.189Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 51%
+2023-08-05T07:00:26.193Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 54%
+2023-08-05T07:00:26.195Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 58%
+2023-08-05T07:00:26.200Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 62%
+2023-08-05T07:00:26.205Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 66%
+2023-08-05T07:00:26.209Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 70%
+2023-08-05T07:00:26.213Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 74%
+2023-08-05T07:00:26.217Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 78%
+2023-08-05T07:00:26.219Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 79%
+2023-08-05T07:00:26.223Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 83%
+2023-08-05T07:00:26.227Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 86%
+2023-08-05T07:00:26.230Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 90%
+2023-08-05T07:00:26.234Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 93%
+2023-08-05T07:00:26.237Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 96%
+2023-08-05T07:00:26.240Z [Modules] Streaming discord_erlpack@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip: 100%
+2023-08-05T07:00:26.242Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-08-05T07:00:26.242Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip
+2023-08-05T07:00:26.736Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 1%
+2023-08-05T07:00:26.744Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 2%
+2023-08-05T07:00:26.748Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 3%
+2023-08-05T07:00:26.756Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 4%
+2023-08-05T07:00:26.762Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 5%
+2023-08-05T07:00:26.769Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 6%
+2023-08-05T07:00:26.774Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 7%
+2023-08-05T07:00:26.782Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 8%
+2023-08-05T07:00:26.788Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 9%
+2023-08-05T07:00:26.793Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 10%
+2023-08-05T07:00:26.800Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 11%
+2023-08-05T07:00:26.804Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 12%
+2023-08-05T07:00:26.813Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 13%
+2023-08-05T07:00:26.817Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 14%
+2023-08-05T07:00:26.826Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 15%
+2023-08-05T07:00:26.829Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 16%
+2023-08-05T07:00:26.837Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 17%
+2023-08-05T07:00:26.844Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 18%
+2023-08-05T07:00:26.850Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 19%
+2023-08-05T07:00:26.855Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 20%
+2023-08-05T07:00:26.864Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 21%
+2023-08-05T07:00:26.869Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 22%
+2023-08-05T07:00:26.877Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 23%
+2023-08-05T07:00:26.881Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 24%
+2023-08-05T07:00:26.889Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 25%
+2023-08-05T07:00:26.893Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 26%
+2023-08-05T07:00:26.902Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 27%
+2023-08-05T07:00:26.910Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 28%
+2023-08-05T07:00:26.914Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 29%
+2023-08-05T07:00:26.922Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 30%
+2023-08-05T07:00:26.926Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 31%
+2023-08-05T07:00:26.935Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 32%
+2023-08-05T07:00:26.939Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 33%
+2023-08-05T07:00:26.947Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 34%
+2023-08-05T07:00:26.951Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 35%
+2023-08-05T07:00:26.959Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 36%
+2023-08-05T07:00:26.964Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 37%
+2023-08-05T07:00:26.970Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 38%
+2023-08-05T07:00:26.978Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 39%
+2023-08-05T07:00:26.984Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 40%
+2023-08-05T07:00:26.993Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 41%
+2023-08-05T07:00:26.997Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 42%
+2023-08-05T07:00:27.004Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 43%
+2023-08-05T07:00:27.009Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 44%
+2023-08-05T07:00:27.016Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 45%
+2023-08-05T07:00:27.025Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 46%
+2023-08-05T07:00:27.029Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 47%
+2023-08-05T07:00:27.037Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 48%
+2023-08-05T07:00:27.041Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 49%
+2023-08-05T07:00:27.048Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 50%
+2023-08-05T07:00:27.052Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 51%
+2023-08-05T07:00:27.061Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 52%
+2023-08-05T07:00:27.065Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 53%
+2023-08-05T07:00:27.069Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 54%
+2023-08-05T07:00:27.080Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 55%
+2023-08-05T07:00:27.086Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 56%
+2023-08-05T07:00:27.091Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 57%
+2023-08-05T07:00:27.097Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 58%
+2023-08-05T07:00:27.103Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 59%
+2023-08-05T07:00:27.111Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 60%
+2023-08-05T07:00:27.118Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 61%
+2023-08-05T07:00:27.121Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 62%
+2023-08-05T07:00:27.128Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 63%
+2023-08-05T07:00:27.137Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 64%
+2023-08-05T07:00:27.143Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 65%
+2023-08-05T07:00:27.147Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 66%
+2023-08-05T07:00:27.155Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 67%
+2023-08-05T07:00:27.159Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 68%
+2023-08-05T07:00:27.168Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 69%
+2023-08-05T07:00:27.173Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 70%
+2023-08-05T07:00:27.179Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 71%
+2023-08-05T07:00:27.187Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 72%
+2023-08-05T07:00:27.193Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 73%
+2023-08-05T07:00:27.199Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 74%
+2023-08-05T07:00:27.204Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 75%
+2023-08-05T07:00:27.216Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 76%
+2023-08-05T07:00:27.220Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 77%
+2023-08-05T07:00:27.226Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 78%
+2023-08-05T07:00:27.231Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 79%
+2023-08-05T07:00:27.236Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 80%
+2023-08-05T07:00:27.243Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 81%
+2023-08-05T07:00:27.248Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 82%
+2023-08-05T07:00:27.253Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 83%
+2023-08-05T07:00:27.263Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 84%
+2023-08-05T07:00:27.268Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 85%
+2023-08-05T07:00:27.275Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 86%
+2023-08-05T07:00:27.281Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 87%
+2023-08-05T07:00:27.284Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 88%
+2023-08-05T07:00:27.294Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 89%
+2023-08-05T07:00:27.300Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 90%
+2023-08-05T07:00:27.306Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 91%
+2023-08-05T07:00:27.311Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 92%
+2023-08-05T07:00:27.320Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 93%
+2023-08-05T07:00:27.330Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 94%
+2023-08-05T07:00:27.334Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 95%
+2023-08-05T07:00:27.338Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 96%
+2023-08-05T07:00:27.345Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 97%
+2023-08-05T07:00:27.351Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 98%
+2023-08-05T07:00:27.356Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 99%
+2023-08-05T07:00:27.363Z [Modules] Streaming discord_spellcheck@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip: 100%
+2023-08-05T07:00:27.364Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-08-05T07:00:27.365Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip
+2023-08-05T07:00:29.035Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 3%
+2023-08-05T07:00:29.037Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 5%
+2023-08-05T07:00:29.038Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 8%
+2023-08-05T07:00:29.040Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 10%
+2023-08-05T07:00:29.042Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 12%
+2023-08-05T07:00:29.043Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 14%
+2023-08-05T07:00:29.045Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 16%
+2023-08-05T07:00:29.046Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 19%
+2023-08-05T07:00:29.046Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 21%
+2023-08-05T07:00:29.049Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 23%
+2023-08-05T07:00:29.051Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 27%
+2023-08-05T07:00:29.052Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 29%
+2023-08-05T07:00:29.053Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 31%
+2023-08-05T07:00:29.055Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 33%
+2023-08-05T07:00:29.056Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 35%
+2023-08-05T07:00:29.057Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 38%
+2023-08-05T07:00:29.059Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 40%
+2023-08-05T07:00:29.060Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 42%
+2023-08-05T07:00:29.062Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 44%
+2023-08-05T07:00:29.063Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 46%
+2023-08-05T07:00:29.066Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 48%
+2023-08-05T07:00:29.069Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 53%
+2023-08-05T07:00:29.070Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 55%
+2023-08-05T07:00:29.071Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 58%
+2023-08-05T07:00:29.072Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 59%
+2023-08-05T07:00:29.074Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 62%
+2023-08-05T07:00:29.075Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 64%
+2023-08-05T07:00:29.076Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 66%
+2023-08-05T07:00:29.078Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 68%
+2023-08-05T07:00:29.079Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 69%
+2023-08-05T07:00:29.079Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 70%
+2023-08-05T07:00:29.082Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 72%
+2023-08-05T07:00:29.084Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 78%
+2023-08-05T07:00:29.085Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 80%
+2023-08-05T07:00:29.086Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 82%
+2023-08-05T07:00:29.088Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 84%
+2023-08-05T07:00:29.089Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 87%
+2023-08-05T07:00:29.090Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 89%
+2023-08-05T07:00:29.092Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 91%
+2023-08-05T07:00:29.093Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 93%
+2023-08-05T07:00:29.094Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 95%
+2023-08-05T07:00:29.097Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 97%
+2023-08-05T07:00:29.098Z [Modules] Streaming discord_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip: 100%
+2023-08-05T07:00:29.099Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-08-05T07:00:29.100Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip
+2023-08-05T07:00:29.607Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 1%
+2023-08-05T07:00:29.637Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 2%
+2023-08-05T07:00:29.640Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 3%
+2023-08-05T07:00:29.644Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 4%
+2023-08-05T07:00:29.648Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 5%
+2023-08-05T07:00:29.654Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 6%
+2023-08-05T07:00:29.657Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 7%
+2023-08-05T07:00:29.663Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 8%
+2023-08-05T07:00:29.668Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 9%
+2023-08-05T07:00:29.671Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 10%
+2023-08-05T07:00:29.675Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 11%
+2023-08-05T07:00:29.681Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 12%
+2023-08-05T07:00:29.686Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 13%
+2023-08-05T07:00:29.689Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 14%
+2023-08-05T07:00:29.803Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 15%
+2023-08-05T07:00:29.806Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 16%
+2023-08-05T07:00:29.831Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 17%
+2023-08-05T07:00:29.836Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 18%
+2023-08-05T07:00:29.840Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 19%
+2023-08-05T07:00:29.844Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 20%
+2023-08-05T07:00:29.849Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 21%
+2023-08-05T07:00:29.853Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 22%
+2023-08-05T07:00:29.858Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 23%
+2023-08-05T07:00:29.863Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 24%
+2023-08-05T07:00:29.868Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 25%
+2023-08-05T07:00:29.871Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 26%
+2023-08-05T07:00:29.877Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 27%
+2023-08-05T07:00:29.882Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 28%
+2023-08-05T07:00:29.886Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 29%
+2023-08-05T07:00:29.997Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 30%
+2023-08-05T07:00:30.006Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 31%
+2023-08-05T07:00:30.027Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 32%
+2023-08-05T07:00:30.032Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 33%
+2023-08-05T07:00:30.037Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 34%
+2023-08-05T07:00:30.039Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 35%
+2023-08-05T07:00:30.045Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 36%
+2023-08-05T07:00:30.054Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 37%
+2023-08-05T07:00:30.059Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 38%
+2023-08-05T07:00:30.064Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 39%
+2023-08-05T07:00:30.068Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 40%
+2023-08-05T07:00:30.073Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 41%
+2023-08-05T07:00:30.076Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 42%
+2023-08-05T07:00:30.089Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 43%
+2023-08-05T07:00:30.098Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 44%
+2023-08-05T07:00:30.193Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 45%
+2023-08-05T07:00:30.396Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 46%
+2023-08-05T07:00:30.398Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 47%
+2023-08-05T07:00:30.399Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 48%
+2023-08-05T07:00:30.400Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 49%
+2023-08-05T07:00:30.402Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 50%
+2023-08-05T07:00:30.405Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 51%
+2023-08-05T07:00:30.407Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 52%
+2023-08-05T07:00:30.407Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 53%
+2023-08-05T07:00:30.410Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 54%
+2023-08-05T07:00:30.411Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 55%
+2023-08-05T07:00:30.413Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 56%
+2023-08-05T07:00:30.414Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 57%
+2023-08-05T07:00:30.415Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 58%
+2023-08-05T07:00:30.416Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 59%
+2023-08-05T07:00:30.417Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 60%
+2023-08-05T07:00:30.591Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 61%
+2023-08-05T07:00:30.595Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 62%
+2023-08-05T07:00:30.600Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 63%
+2023-08-05T07:00:30.607Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 64%
+2023-08-05T07:00:30.609Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 65%
+2023-08-05T07:00:30.614Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 66%
+2023-08-05T07:00:30.618Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 67%
+2023-08-05T07:00:30.623Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 68%
+2023-08-05T07:00:30.626Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 69%
+2023-08-05T07:00:30.632Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 70%
+2023-08-05T07:00:30.637Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 71%
+2023-08-05T07:00:30.641Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 72%
+2023-08-05T07:00:30.645Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 73%
+2023-08-05T07:00:30.649Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 74%
+2023-08-05T07:00:30.656Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 75%
+2023-08-05T07:00:30.790Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 76%
+2023-08-05T07:00:30.792Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 77%
+2023-08-05T07:00:30.797Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 78%
+2023-08-05T07:00:30.802Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 79%
+2023-08-05T07:00:30.808Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 80%
+2023-08-05T07:00:30.811Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 81%
+2023-08-05T07:00:30.815Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 82%
+2023-08-05T07:00:30.819Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 83%
+2023-08-05T07:00:30.824Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 84%
+2023-08-05T07:00:30.829Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 85%
+2023-08-05T07:00:30.844Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 86%
+2023-08-05T07:00:30.848Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 87%
+2023-08-05T07:00:30.855Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 88%
+2023-08-05T07:00:30.858Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 89%
+2023-08-05T07:00:30.864Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 90%
+2023-08-05T07:00:30.984Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 91%
+2023-08-05T07:00:30.990Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 92%
+2023-08-05T07:00:30.993Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 93%
+2023-08-05T07:00:30.997Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 94%
+2023-08-05T07:00:31.001Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 95%
+2023-08-05T07:00:31.009Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 96%
+2023-08-05T07:00:31.011Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 97%
+2023-08-05T07:00:31.016Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 98%
+2023-08-05T07:00:31.022Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 99%
+2023-08-05T07:00:31.026Z [Modules] Streaming discord_voice@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip: 100%
+2023-08-05T07:00:31.027Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-08-05T07:00:31.028Z [Modules] Installing updates...
+2023-08-05T07:00:31.028Z [Modules] Installing discord_desktop_core@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_desktop_core-1.zip
+2023-08-05T07:00:31.136Z [Modules] Installing discord_erlpack@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_erlpack-1.zip
+2023-08-05T07:00:31.210Z [Modules] Installing discord_spellcheck@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_spellcheck-1.zip
+2023-08-05T07:00:32.002Z [Modules] Installing discord_utils@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_utils-1.zip
+2023-08-05T07:00:32.508Z [Modules] Installing discord_voice@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_voice-1.zip
+2023-08-05T07:00:33.416Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-08-05T07:00:33.416Z [Modules] Checking for host updates.
+2023-08-05T07:00:33.708Z [Modules] Host is up to date.
+2023-08-05T07:00:33.708Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-05T07:00:33.711Z [Modules] No module updates available.
+2023-08-05T07:00:36.365Z [Modules] Starting to install discord_krisp...
+2023-08-05T07:00:36.366Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-08-05T07:00:36.366Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip
+2023-08-05T07:00:36.386Z [Modules] Starting to install discord_game_utils...
+2023-08-05T07:00:36.859Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 1%
+2023-08-05T07:00:36.866Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 2%
+2023-08-05T07:00:36.873Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 3%
+2023-08-05T07:00:36.895Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 4%
+2023-08-05T07:00:36.896Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 5%
+2023-08-05T07:00:36.898Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 6%
+2023-08-05T07:00:36.899Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 7%
+2023-08-05T07:00:36.901Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 8%
+2023-08-05T07:00:36.903Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 9%
+2023-08-05T07:00:36.905Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 10%
+2023-08-05T07:00:36.913Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 11%
+2023-08-05T07:00:36.915Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 12%
+2023-08-05T07:00:36.917Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 13%
+2023-08-05T07:00:37.045Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 14%
+2023-08-05T07:00:37.056Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 15%
+2023-08-05T07:00:37.058Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 16%
+2023-08-05T07:00:37.061Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 17%
+2023-08-05T07:00:37.067Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 18%
+2023-08-05T07:00:37.073Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 19%
+2023-08-05T07:00:37.089Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 20%
+2023-08-05T07:00:37.094Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 21%
+2023-08-05T07:00:37.098Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 22%
+2023-08-05T07:00:37.104Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 23%
+2023-08-05T07:00:37.109Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 24%
+2023-08-05T07:00:37.112Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 25%
+2023-08-05T07:00:37.134Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 26%
+2023-08-05T07:00:37.146Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 27%
+2023-08-05T07:00:37.244Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 28%
+2023-08-05T07:00:37.251Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 29%
+2023-08-05T07:00:37.256Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 30%
+2023-08-05T07:00:37.261Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 31%
+2023-08-05T07:00:37.265Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 32%
+2023-08-05T07:00:37.275Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 33%
+2023-08-05T07:00:37.285Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 34%
+2023-08-05T07:00:37.289Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 35%
+2023-08-05T07:00:37.294Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 36%
+2023-08-05T07:00:37.299Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 37%
+2023-08-05T07:00:37.450Z [Modules] Checking for host updates.
+2023-08-05T07:00:37.498Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 38%
+2023-08-05T07:00:37.499Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 39%
+2023-08-05T07:00:37.501Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 40%
+2023-08-05T07:00:37.501Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 41%
+2023-08-05T07:00:37.503Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 42%
+2023-08-05T07:00:37.503Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 43%
+2023-08-05T07:00:37.505Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 44%
+2023-08-05T07:00:37.506Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 45%
+2023-08-05T07:00:37.507Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 46%
+2023-08-05T07:00:37.509Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 47%
+2023-08-05T07:00:37.511Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 48%
+2023-08-05T07:00:37.512Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 50%
+2023-08-05T07:00:37.512Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 51%
+2023-08-05T07:00:37.695Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 52%
+2023-08-05T07:00:37.699Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 53%
+2023-08-05T07:00:37.704Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 54%
+2023-08-05T07:00:37.710Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 55%
+2023-08-05T07:00:37.714Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 56%
+2023-08-05T07:00:37.719Z [Modules] Host is up to date.
+2023-08-05T07:00:37.720Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-05T07:00:37.722Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 57%
+2023-08-05T07:00:37.725Z [Modules] No module updates available.
+2023-08-05T07:00:37.728Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 58%
+2023-08-05T07:00:37.730Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 59%
+2023-08-05T07:00:37.738Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 60%
+2023-08-05T07:00:37.896Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 61%
+2023-08-05T07:00:37.898Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 62%
+2023-08-05T07:00:37.902Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 63%
+2023-08-05T07:00:37.906Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 64%
+2023-08-05T07:00:37.912Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 65%
+2023-08-05T07:00:37.917Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 66%
+2023-08-05T07:00:37.922Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 67%
+2023-08-05T07:00:37.927Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 68%
+2023-08-05T07:00:37.932Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 69%
+2023-08-05T07:00:37.936Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 70%
+2023-08-05T07:00:37.942Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 71%
+2023-08-05T07:00:37.947Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 72%
+2023-08-05T07:00:37.951Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 73%
+2023-08-05T07:00:37.957Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 74%
+2023-08-05T07:00:37.977Z [Modules] Starting to install discord_rpc...
+2023-08-05T07:00:38.089Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 75%
+2023-08-05T07:00:38.096Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 76%
+2023-08-05T07:00:38.099Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 77%
+2023-08-05T07:00:38.111Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 79%
+2023-08-05T07:00:38.120Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 80%
+2023-08-05T07:00:38.134Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 82%
+2023-08-05T07:00:38.147Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 83%
+2023-08-05T07:00:38.150Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 87%
+2023-08-05T07:00:38.280Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 88%
+2023-08-05T07:00:38.287Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 89%
+2023-08-05T07:00:38.291Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 90%
+2023-08-05T07:00:38.298Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 91%
+2023-08-05T07:00:38.304Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 92%
+2023-08-05T07:00:38.308Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 93%
+2023-08-05T07:00:38.313Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 94%
+2023-08-05T07:00:38.321Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 95%
+2023-08-05T07:00:38.327Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 96%
+2023-08-05T07:00:38.330Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 97%
+2023-08-05T07:00:38.526Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 98%
+2023-08-05T07:00:38.528Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 99%
+2023-08-05T07:00:38.529Z [Modules] Streaming discord_krisp@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip: 100%
+2023-08-05T07:00:38.530Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-08-05T07:00:38.531Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip
+2023-08-05T07:00:38.531Z [Modules] Installing discord_krisp@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_krisp-1.zip
+2023-08-05T07:00:39.005Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 3%
+2023-08-05T07:00:39.005Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 4%
+2023-08-05T07:00:39.006Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 7%
+2023-08-05T07:00:39.008Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 9%
+2023-08-05T07:00:39.009Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 12%
+2023-08-05T07:00:39.010Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 15%
+2023-08-05T07:00:39.012Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 17%
+2023-08-05T07:00:39.013Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 20%
+2023-08-05T07:00:39.015Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 23%
+2023-08-05T07:00:39.016Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 26%
+2023-08-05T07:00:39.018Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 28%
+2023-08-05T07:00:39.020Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 31%
+2023-08-05T07:00:39.021Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 34%
+2023-08-05T07:00:39.022Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 36%
+2023-08-05T07:00:39.024Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 39%
+2023-08-05T07:00:39.025Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 42%
+2023-08-05T07:00:39.027Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 44%
+2023-08-05T07:00:39.027Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 46%
+2023-08-05T07:00:39.028Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 49%
+2023-08-05T07:00:39.030Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 52%
+2023-08-05T07:00:39.031Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 54%
+2023-08-05T07:00:39.033Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 57%
+2023-08-05T07:00:39.034Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 60%
+2023-08-05T07:00:39.036Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 62%
+2023-08-05T07:00:39.037Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 65%
+2023-08-05T07:00:39.039Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 68%
+2023-08-05T07:00:39.040Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 70%
+2023-08-05T07:00:39.042Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 73%
+2023-08-05T07:00:39.043Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 76%
+2023-08-05T07:00:39.044Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 78%
+2023-08-05T07:00:39.046Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 81%
+2023-08-05T07:00:39.048Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 84%
+2023-08-05T07:00:39.048Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 85%
+2023-08-05T07:00:39.049Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 86%
+2023-08-05T07:00:39.049Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 88%
+2023-08-05T07:00:39.051Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 91%
+2023-08-05T07:00:39.053Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 94%
+2023-08-05T07:00:39.055Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 97%
+2023-08-05T07:00:39.055Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 98%
+2023-08-05T07:00:39.063Z [Modules] Streaming discord_game_utils@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip: 100%
+2023-08-05T07:00:39.066Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-08-05T07:00:39.066Z [Modules] Streaming discord_rpc@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip
+2023-08-05T07:00:39.129Z [Modules] Installing discord_game_utils@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_game_utils-1.zip
+2023-08-05T07:00:39.221Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2023-08-05T07:00:39.571Z [Modules] Streaming discord_rpc@1 to /home/nai/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip: 100%
+2023-08-05T07:00:39.572Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-08-05T07:00:39.572Z [Modules] Installing discord_rpc@1 from /home/nai/.config/discord/0.0.28/modules/pending/discord_rpc-1.zip
+2023-08-05T07:00:39.598Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-06T11:20:53.247Z [Modules] Modules initializing
+2023-08-06T11:20:53.251Z [Modules] Distribution: remote
+2023-08-06T11:20:53.251Z [Modules] Host updates: enabled
+2023-08-06T11:20:53.251Z [Modules] Module updates: enabled
+2023-08-06T11:20:53.251Z [Modules] Module install path: /home/nai/.config/discord/0.0.28/modules
+2023-08-06T11:20:53.252Z [Modules] Module installed file path: /home/nai/.config/discord/0.0.28/modules/installed.json
+2023-08-06T11:20:53.252Z [Modules] Module download path: /home/nai/.config/discord/0.0.28/modules/pending
+2023-08-06T11:20:53.578Z [Modules] No updates to install
+2023-08-06T11:20:53.579Z [Modules] Checking for host updates.
+2023-08-06T11:20:54.109Z [Modules] Host is up to date.
+2023-08-06T11:20:54.110Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-06T11:20:54.241Z [Modules] No module updates available.
+2023-08-06T11:20:58.297Z [Modules] Checking for host updates.
+2023-08-06T11:20:58.589Z [Modules] Host is up to date.
+2023-08-06T11:20:58.589Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-06T11:20:58.594Z [Modules] No module updates available.
+2023-08-06T13:41:56.523Z [Modules] Modules initializing
+2023-08-06T13:41:56.526Z [Modules] Distribution: remote
+2023-08-06T13:41:56.527Z [Modules] Host updates: enabled
+2023-08-06T13:41:56.527Z [Modules] Module updates: enabled
+2023-08-06T13:41:56.527Z [Modules] Module install path: /home/nai/.config/discord/0.0.28/modules
+2023-08-06T13:41:56.528Z [Modules] Module installed file path: /home/nai/.config/discord/0.0.28/modules/installed.json
+2023-08-06T13:41:56.528Z [Modules] Module download path: /home/nai/.config/discord/0.0.28/modules/pending
+2023-08-06T13:41:56.887Z [Modules] No updates to install
+2023-08-06T13:41:56.888Z [Modules] Checking for host updates.
+2023-08-06T13:41:57.374Z [Modules] Host is up to date.
+2023-08-06T13:41:57.374Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-06T13:41:57.472Z [Modules] No module updates available.
+2023-08-06T13:42:00.503Z [Modules] Checking for host updates.
+2023-08-06T13:42:00.807Z [Modules] Host is up to date.
+2023-08-06T13:42:00.807Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-06T13:42:00.813Z [Modules] No module updates available.

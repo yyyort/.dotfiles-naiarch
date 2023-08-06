@@ -1,0 +1,472 @@
+2023-08-06 20:08:19.135 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+
+2023-08-06 20:08:19.151 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2023-08-06 20:08:42.042 [info] ERROR:pygls.protocol:Failed to handle request 20 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/nai/.config/qtile/config.py'), position=86:51, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references
+    return _references(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references
+    names = find_references(self._get_module_context(), tree_name, scope == 'file')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references
+    found_names = _find_defining_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names
+    found_names = _find_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names
+    found_names = set(name.goto())
+                      ^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+AssertionError: Cannot infer the keyword <Keyword: from>
+
+2023-08-06 20:08:42.060 [info] [Error - 8:08:42 PM] Request textDocument/documentHighlight failed.
+2023-08-06 20:08:42.060 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: from>
+  Code: -32602 
+{'traceback': ['  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight\n    names = jedi_script.get_references(*jedi_lines, scope="file")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references\n    return _references(**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references\n    names = find_references(self._get_module_context(), tree_name, scope == \'file\')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references\n    found_names = _find_defining_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names\n    found_names = _find_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names\n    found_names = set(name.goto())\n                      ^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto\n    value_set = context.infer_node(to_infer[0])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node\n    return infer_atom(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom\n    assert False, \'Cannot infer the keyword %s\' % atom\n']}
+2023-08-06 20:08:43.279 [info] ERROR:pygls.protocol:Failed to handle request 24 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/nai/.config/qtile/config.py'), position=86:20, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references
+    return _references(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references
+    names = find_references(self._get_module_context(), tree_name, scope == 'file')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references
+    found_names = _find_defining_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names
+    found_names = _find_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names
+    found_names = set(name.goto())
+                      ^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+AssertionError: Cannot infer the keyword <Keyword: from>
+
+2023-08-06 20:08:43.284 [info] [Error - 8:08:43 PM] Request textDocument/documentHighlight failed.
+2023-08-06 20:08:43.284 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: from>
+  Code: -32602 
+{'traceback': ['  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight\n    names = jedi_script.get_references(*jedi_lines, scope="file")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references\n    return _references(**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references\n    names = find_references(self._get_module_context(), tree_name, scope == \'file\')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references\n    found_names = _find_defining_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names\n    found_names = _find_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names\n    found_names = set(name.goto())\n                      ^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto\n    value_set = context.infer_node(to_infer[0])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node\n    return infer_atom(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom\n    assert False, \'Cannot infer the keyword %s\' % atom\n']}
+2023-08-06 20:08:47.896 [info] ERROR:pygls.protocol:Failed to handle request 30 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/nai/.config/qtile/config.py'), position=86:15, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references
+    return _references(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references
+    names = find_references(self._get_module_context(), tree_name, scope == 'file')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references
+    found_names = _find_defining_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names
+    found_names = _find_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names
+    found_names = set(name.goto())
+                      ^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+AssertionError: Cannot infer the keyword <Keyword: from>
+
+2023-08-06 20:08:47.899 [info] [Error - 8:08:47 PM] Request textDocument/documentHighlight failed.
+2023-08-06 20:08:47.899 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: from>
+  Code: -32602 
+{'traceback': ['  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight\n    names = jedi_script.get_references(*jedi_lines, scope="file")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references\n    return _references(**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references\n    names = find_references(self._get_module_context(), tree_name, scope == \'file\')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references\n    found_names = _find_defining_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names\n    found_names = _find_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names\n    found_names = set(name.goto())\n                      ^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto\n    value_set = context.infer_node(to_infer[0])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node\n    return infer_atom(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom\n    assert False, \'Cannot infer the keyword %s\' % atom\n']}
+2023-08-06 20:08:52.939 [info] ERROR:pygls.protocol:Failed to handle request 36 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/nai/.config/qtile/config.py'), position=86:43, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references
+    return _references(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references
+    names = find_references(self._get_module_context(), tree_name, scope == 'file')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references
+    found_names = _find_defining_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names
+    found_names = _find_names(module_context, tree_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names
+    found_names = set(name.goto())
+                      ^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+AssertionError: Cannot infer the keyword <Keyword: from>
+
+2023-08-06 20:08:52.944 [info] [Error - 8:08:52 PM] Request textDocument/documentHighlight failed.
+2023-08-06 20:08:52.944 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: from>
+  Code: -32602 
+{'traceback': ['  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 355, in highlight\n    names = jedi_script.get_references(*jedi_lines, scope="file")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 418, in get_references\n    return _references(**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 412, in _references\n    names = find_references(self._get_module_context(), tree_name, scope == \'file\')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 122, in find_references\n    found_names = _find_defining_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names\n    found_names = _find_names(module_context, tree_name)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names\n    found_names = set(name.goto())\n                      ^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 182, in goto\n    value_set = context.infer_node(to_infer[0])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n           ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node\n    return infer_atom(context, element)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/home/nai/.vscode/extensions/ms-python.python-2023.14.0/pythonFiles/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom\n    assert False, \'Cannot infer the keyword %s\' % atom\n']}

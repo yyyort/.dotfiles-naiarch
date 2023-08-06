@@ -1,0 +1,464 @@
+[2023-08-06 21:41:58.927] [60316] (engine.cpp:293): Created native Engine, time: Sun Aug  6 21:41:58 2023 PST, logPath: /home/nai/.config/discord/0.0.28/modules/discord_voice/, logLevel: 2
+[2023-08-06 21:41:58.942] [60316] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-06 21:41:58.943] [60316] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:83): Create
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:91): CreateForTest
+[2023-08-06 21:41:58.945] [60316] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:133): CheckPlatform
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:144): current platform is Linux
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:992): PlatformAudioLayer
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2023-08-06 21:41:58.945] [60316] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2023-08-06 21:41:58.945] [60316] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:345): AttachAudioBuffer
+[2023-08-06 21:41:58.945] [60316] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2023-08-06 21:41:58.945] [60316] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2023-08-06 21:41:58.945] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2023-08-06 21:41:58.945] [60316] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:355): ActiveAudioLayer
+[2023-08-06 21:41:58.945] [60316] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-06 21:41:58.945] [60316] (audio_engine.cpp:491): Creating audio engine: standard
+[2023-08-06 21:41:58.945] [60316] (audio_device_impl.cc:365): Init
+[2023-08-06 21:41:58.956] [60316] (audio_coding.cpp:147): Using software Opus decoder
+[2023-08-06 21:41:58.956] [60316] (audio_coding.cpp:164): Using software Opus encoder
+[2023-08-06 21:41:58.956] [60316] (audio_device_impl.cc:896): RegisterAudioCallback
+[2023-08-06 21:41:58.956] [60316] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2023-08-06 21:41:58.956] [60316] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-06 21:41:58.956] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:58.956] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:58.956] [60316] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-08-06 21:41:58.957] [60316] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:574): output: 1
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:58.957] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:58.957] [60316] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-08-06 21:41:58.957] [60316] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-06 21:41:58.957] [60316] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-08-06 21:41:58.957] [60316] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-08-06 21:41:58.957] [60316] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-08-06 21:41:58.958] [60316] (audio_device_impl.cc:620): output: 1
+[2023-08-06 21:41:58.958] [60316] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-08-06 21:41:58.958] [60316] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-08-06 21:41:58.958] [60316] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-08-06 21:41:58.958] [60316] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-08-06 21:41:58.958] [60316] (audio_device_impl.cc:915): output: 0
+[2023-08-06 21:41:58.958] [60316] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-08-06 21:41:58.961] [60316] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-08-06 21:41:58.961] [60316] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2023-08-06 21:41:58.961] [60316] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2023-08-06 21:41:58.961] [60316] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-08-06 21:41:58.961] [60316] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-08-06 21:41:59.163] [60270] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: 894240480919965726, was: null, was: undefined)"]
+[2023-08-06 21:41:59.165] [60316] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-06 21:41:59.165] [60316] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-08-06 21:41:59.165] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:59.165] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:59.165] [60316] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-08-06 21:41:59.165] [60316] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-08-06 21:41:59.165] [60316] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:574): output: 1
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:59.166] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:59.166] [60316] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-08-06 21:41:59.166] [60316] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-06 21:41:59.166] [60316] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-08-06 21:41:59.166] [60316] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:620): output: 1
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-08-06 21:41:59.166] [60316] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-08-06 21:41:59.166] [60316] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-06 21:41:59.166] [60316] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-08-06 21:41:59.167] [60316] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-06 21:41:59.168] [60270] (discord.cpp:666): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 218051, Version Hash: 4a59b3ca41efacaa1cb0e3ce3158dd1d545e923a"]
+[2023-08-06 21:41:59.177] [60316] (engine.cpp:722): Engine::SetClipBufferLength(0)
+[2023-08-06 21:41:59.210] [60270] (discord.cpp:666): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-08-06 21:41:59.237] [60270] (discord.cpp:666): JS console: ["%c[default]","[NATIVE INFO] host 0.0.28, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2023-08-06 21:41:59.293] [60270] (discord.cpp:666): JS console: ["[FAST CONNECT] connected in 1187ms"]
+[2023-08-06 21:41:59.296] [60316] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-06 21:41:59.296] [60316] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-08-06 21:41:59.296] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:59.296] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:59.296] [60316] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-08-06 21:41:59.296] [60316] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-08-06 21:41:59.296] [60316] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:574): output: 1
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-08-06 21:41:59.297] [60316] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-08-06 21:41:59.297] [60316] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-08-06 21:41:59.297] [60316] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-06 21:41:59.297] [60316] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-08-06 21:41:59.297] [60316] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:620): output: 1
+[2023-08-06 21:41:59.297] [60316] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-08-06 21:41:59.297] [60316] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-08-06 21:41:59.320] [60270] (discord.cpp:666): JS console: ["Initializing krisp module"]
+[2023-08-06 21:41:59.831] [60270] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-08-06 21:42:00.011] [60270] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-08-06 21:42:00.226] [60270] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1464:330)\n    at Bn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1490:696)\n    at Wn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1493:356)\n    at Zn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1493:199)\n    at Yn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1492:886)\n    at Kn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1493:697)\n    at zn (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1493:731)\n    at i (https://discordapp.com/assets/b49fb419de93e53ce1c1.js:1460:961)\n    at 408481 (https://discordapp.com/assets/75d0f6e377c8aca39718.js:21:346)\n    at l (https://discordapp.com/assets/ff0c86b9a4763d4e9af5.js:1:154)\n    at 558820 (https://discordapp.com/assets/75d0f6e377c8aca39718.js:14:168)\n    at l (https://discordapp.com/assets/ff0c86b9a4763d4e9af5.js:1:154)\n    at 308739 (https://discordapp.com/assets/75d0f6e377c8aca39718.js:2:331)\n    at l (https://discordapp.com/assets/ff0c86b9a4763d4e9af5.js:1:154)\n    at 173242 (https://discordapp.com/assets/78844abe0371cbc71220.js:348:101)\n    at l (https://discordapp.com/assets/ff0c86b9a4763d4e9af5.js:1:154)\n    at 785174 (https://discordapp.com/assets/f4cf7a10f9ec65bdf0c4.js:35:278)\n    at Function.l (https://discordapp.com/assets/ff0c86b9a4763d4e9af5.js:1:154)"]
+[2023-08-06 21:42:00.300] [60270] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-06 21:42:00.992] [60270] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-08-06 21:42:00.993] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-08-06 21:42:00.993] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-06 21:42:00.993] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-06 21:42:00.994] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-06 21:42:00.994] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-06 21:42:00.995] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-08-06 21:42:00.995] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2023-08-06 21:42:00.996] [60270] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-06 21:42:00.996] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-06 21:42:00.996] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-06 21:42:01.007] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-tf4w: 0, heartbeat interval: 41250, took 13 ms"]
+[2023-08-06 21:42:01.037] [60270] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-08-06 21:42:01.085] [60270] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-08-06 21:42:01.692] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 697ms, as b90197f06e139cfcc65321841bcf0d1a via \ngateway-prd-us-east1-c-tf4w: 226.455\n|  id_created: 1.689\n|  session_lookup_time: 0.572\n|  session_lookup_finished: 0.036\n|  discord-sessions-prd-2-176: 221.598\n|  |  start_session: 178.198\n|  |  |  discord-api-5c6dc98db-cwbc6: 170.901\n|  |  |  |  get_user: 76.412\n|  |  |  |  get_guilds: 45.411\n|  |  |  |  user_settings_proto: 0.163\n|  |  |  |  relationships: 8.558\n|  |  |  |  friend_suggestion: 0.062\n|  |  |  |  connections: 0.019\n|  |  |  |  serialized_read_states: 0.005\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 3.773\n|  |  |  |  experiments: 13.335\n|  |  |  |  affine_user_ids: 3.783\n|  |  |  |  required_action: 0.003\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.044\n|  |  presence_started: 0.473\n|  |  guilds_started: 0.289\n|  |  guilds_connect: 41.393\n|  |  presence_connect: 0.001\n|  |  connect_finished: 41.408\n|  |  build_ready: 0.603\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 0.544\n|  |  split_ready: 0.035"]
+[2023-08-06 21:42:01.692] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-06 21:42:01.712] [60270] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-06 21:42:01.714] [60270] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-06 21:42:01.715] [60270] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 894240480919965726, database: undefined)"]
+[2023-08-06 21:42:01.716] [60270] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (894240480919965726 → null)"]
+[2023-08-06 21:42:01.726] [60270] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-06 21:42:01.753] [60270] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1121652174200508476 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-06 21:42:01.761] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-06 21:42:01.764] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 770ms"]
+[2023-08-06 21:42:01.764] [60270] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-06 21:42:01.964] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:02.188] [60270] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 1 messages for 1121652174200508476 isBefore:false isAfter:false"]
+[2023-08-06 21:42:04.966] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:07.630] [60270] (discord.cpp:666): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-08-06 21:42:07.968] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:10.887] [60270] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating status with delay 0"]
+[2023-08-06 21:42:10.907] [60270] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2023-08-06 21:42:10.925] [60270] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2023-08-06 21:42:10.970] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:13.954] [60270] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating status with delay 0"]
+[2023-08-06 21:42:13.973] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:14.091] [60270] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-08-06 21:42:14.301] [60270] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Server revision: 102, Client revision: 102"]
+[2023-08-06 21:42:15.297] [60270] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1098900387773304842/1121652174200508476"]
+[2023-08-06 21:42:16.976] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:19.979] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:22.529] [60270] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is hongkong"]
+[2023-08-06 21:42:22.983] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:25.985] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:28.986] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:31.989] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:34.993] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:37.478] [60270] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 633ms"]
+[2023-08-06 21:42:37.520] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:42:37.996] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:40.999] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:44.003] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:47.006] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:50.009] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:53.013] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:56.016] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:42:59.019] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:02.023] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:02.492] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:43:05.026] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:07.500] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:43:08.029] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:11.033] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:14.036] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:17.039] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:17.497] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:43:20.043] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:23.046] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:26.049] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:27.502] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:43:29.053] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:32.056] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:35.059] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:38.063] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:41.066] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:42.503] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:43:44.069] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:47.073] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:50.076] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:53.079] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:56.083] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:43:59.086] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:02.089] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:05.093] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:08.096] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:11.099] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:14.103] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:17.106] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:20.109] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:23.113] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:26.116] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:29.119] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:32.121] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:35.123] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:38.126] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:41.129] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:44.129] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:47.133] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:50.136] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:53.139] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:56.143] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:44:59.146] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:02.149] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:05.153] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:08.156] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:11.159] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:14.163] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:17.166] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:20.169] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:22.560] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:45:23.173] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:26.176] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:27.560] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:45:29.179] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:32.183] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:35.186] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:38.189] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:41.193] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:44.196] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:47.199] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:50.203] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:53.206] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:56.209] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:45:59.213] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:02.216] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:05.219] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:08.223] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:11.226] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:14.229] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:17.233] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:20.236] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:23.239] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:26.243] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:27.591] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:46:29.246] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:32.249] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:35.253] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:38.256] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:41.259] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:44.263] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:47.266] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:50.269] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:53.273] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:56.276] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:46:59.279] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:02.283] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:02.596] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:05.286] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:07.605] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:08.289] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:11.293] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:12.610] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:14.296] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:17.299] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:17.607] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:20.303] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:22.608] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:23.306] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:26.309] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:29.313] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:32.316] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:35.317] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:38.319] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:41.322] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:42.625] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:44.326] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:47.329] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:47.627] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:47:50.333] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:53.336] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:56.337] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:47:59.340] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:02.343] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:05.344] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:08.346] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:11.349] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:14.353] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:17.355] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:20.358] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:23.361] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:26.363] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:29.366] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:32.369] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:35.373] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:38.376] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:41.379] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:44.383] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:47.385] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:50.386] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:53.389] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:56.393] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:48:59.396] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:02.399] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:05.403] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:08.406] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:11.410] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:14.413] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:17.417] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:20.419] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:23.423] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:26.426] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:29.429] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:32.433] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:35.436] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:38.439] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:41.443] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:44.446] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:47.449] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:50.453] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:53.456] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:56.457] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:49:59.459] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:02.463] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:05.466] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:08.469] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:11.473] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:14.476] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:17.479] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:20.483] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:23.486] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:26.489] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:29.492] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:32.493] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:35.496] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:38.496] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:41.500] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:44.503] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:47.506] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:50.509] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:53.513] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:56.516] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:50:59.519] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:02.523] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:05.526] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:08.529] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:11.531] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:14.533] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:17.536] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:20.539] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:23.543] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:26.546] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:29.549] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:32.553] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:35.556] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:38.559] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:41.562] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:44.566] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:47.569] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:50.573] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:53.576] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:56.579] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:51:59.583] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:02.586] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:05.589] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:08.593] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:11.595] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:14.596] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:17.599] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:20.603] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:23.606] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:26.609] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:29.613] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:32.616] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:35.619] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:38.623] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:41.626] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:44.630] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:47.633] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:50.634] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:52.716] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:52:53.638] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:56.640] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:52:59.643] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:02.646] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:02.728] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:53:05.649] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:08.653] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:11.656] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:14.659] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:17.663] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:20.666] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:23.669] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:26.673] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:29.675] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:32.676] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:35.679] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:38.683] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:41.686] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:42.753] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:53:44.689] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:47.691] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:50.693] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:52.765] [60270] (discord.cpp:666): JS console: ["%c[RunningGameStore]","games",""]
+[2023-08-06 21:53:53.696] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:56.700] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:53:59.701] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:02.705] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:05.708] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:08.709] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:11.713] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:14.716] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:17.719] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:20.723] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:23.726] [60317] (device_info_linux.cc:45): NumberOfDevices
+[2023-08-06 21:54:26.664] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.664] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.664] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.664] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.665] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.665] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.665] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.665] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.665] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.666] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.667] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.668] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.669] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.671] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.671] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.672] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]
+[2023-08-06 21:54:26.672] [60270] (discord.cpp:666): JS console: ["Window state not initialized","window-1"]

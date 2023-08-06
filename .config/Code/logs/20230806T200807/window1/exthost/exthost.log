@@ -1,0 +1,43 @@
+2023-08-06 20:08:09.117 [info] Extension host with pid 100799 started
+2023-08-06 20:08:09.117 [info] Skipping acquiring lock for /home/nai/.config/Code/User/workspaceStorage/0a92b3ac643fbfdfcfc78841794aa53a.
+2023-08-06 20:08:09.468 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-06 20:08:09.478 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-08-06 20:08:10.313 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-06 20:08:10.338 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-06 20:08:10.340 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-06 20:08:10.381 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-06 20:08:10.419 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-06 20:08:10.518 [info] Eager extensions activated
+2023-08-06 20:08:10.570 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 20:08:10.572 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-06 20:08:10.598 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-06 20:08:42.060 [error] [ms-python.python] provider FAILED
+2023-08-06 20:08:42.061 [error] Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:43.284 [error] [ms-python.python] provider FAILED
+2023-08-06 20:08:43.285 [error] Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:47.899 [error] [ms-python.python] provider FAILED
+2023-08-06 20:08:47.919 [error] Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:08:52.944 [error] [ms-python.python] provider FAILED
+2023-08-06 20:08:52.944 [error] Error: AssertionError: Cannot infer the keyword <Keyword: from>
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2310948
+	at re (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2311242)
+	at /home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306026
+	at Immediate.<anonymous> (/home/nai/.vscode/extensions/ms-python.python-2023.14.0/out/client/extension.js:2:2306046)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-06 20:09:01.728 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-06 20:09:01.765 [info] Extension host with pid 100799 exiting with code 0
