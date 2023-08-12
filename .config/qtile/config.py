@@ -135,8 +135,17 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    layout.Columns(
+        
+        border_focus="#324cbf",
+        border_focus_stack= "#324cbf",
+        border_width=5,
+        ),
     layout.Max(),
+    layout.Floating(
+        border_focus = "#324cbf",
+        border_width = 2
+    ),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
@@ -173,14 +182,13 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.TextBox("naiarch", name="naiarch-config"),
+                #widget.TextBox("naiarch", name="naiarch-config"),
+                widget.Systray(),
                 #widget.KhalCalendar(),
                 widget.Volume(),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
-                widget.Systray(),
                 widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
-                widget.QuickExit(),
             ],
             24,
             
